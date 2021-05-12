@@ -1,0 +1,298 @@
+    *{
+        box-sizing: border-box;
+        } 
+        .mt-3, .my-3 {
+        margin-top: 1rem!important;
+        }
+        
+        .container {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        }
+        .h5, h5 {
+          font-size: 1.25rem;
+          margin-left:5px !important;
+      }
+      .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+          margin-bottom: .5rem;
+          font-family: inherit;
+          font-weight: 500;
+          line-height: 1.2;
+          color: inherit;
+      }
+        .row {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        }
+        .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        }
+        .btn:not(:disabled):not(.disabled) {
+          cursor: pointer;
+      }
+      .btn:not(:disabled):not(.disabled) {
+          cursor: pointer;
+      }
+      .btn:not(:disabled):not(.disabled) {
+          cursor: pointer;
+      }
+      .btn-danger {
+          color: #fff;
+          background-color: #dc3545;
+          border-color: #dc3545;
+      }
+      .btn {
+          display: inline-block;
+          font-weight: 400;
+          text-align: center;
+          white-space: nowrap;
+          vertical-align: middle;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+          user-select: none;
+          border: 1px solid transparent;
+          padding: .375rem .75rem;
+          font-size: 1rem;
+          line-height: 1.5;
+          border-radius: .25rem;
+          transition: color .15s ease-in-out,
+          background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+      }
+      .btn {
+          margin-top: 30px;
+          width: 200px;
+          background-color: white;
+      }
+      .btn-danger {
+          color: #fff;
+          background-color: #dc3545 !important;
+          border-color: #dc3545;
+    }
+    .custom-select {
+      display: inline-block;
+      width: 100%;
+      height: calc(2.25rem + 2px);
+      padding: .375rem 1.75rem .375rem .75rem;
+      line-height: 1.5;
+      color: #495057;
+      vertical-align: middle;
+      background: #fff;
+      background-size: 8px 10px;
+      border: 1px solid #ced4da;
+      border-radius: .25rem;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+    }
+    .input-group-text {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        padding: .375rem .75rem;
+        margin-bottom: 0;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color:#FFFF99;
+        text-align: center;
+        white-space: nowrap;
+        background-color: #0D2129;
+        border: 1px solid #ced4da;
+        border-radius: .25rem;
+    }
+    
+  .text-center {
+    text-align: center!important;
+}.form-control {
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.2rem;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+@media (min-width: 576px){
+.container {
+max-width: 540px;
+}
+}
+@media (min-width: 768px){
+.col-md-6 {
+-ms-flex: 0 0 50%;
+flex: 0 0 50%;
+max-width: 50%;
+}
+.col-md-4 {
+  -ms-flex: 0 0 33.333333%;
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+}
+.col-md-12 {
+-ms-flex: 0 0 100%;
+flex: 0 0 100%;
+max-width: 100%;
+}
+}
+@media (min-width: 992px){
+.container {
+max-width: 960px;
+}
+}
+@media (min-width: 1200px){
+.container {
+max-width: 1140px;
+}
+}
+.require {
+    color: red;
+}
+.label-inner{
+  text-transform: uppercase;
+}
+.btn {
+    margin-top: 30px;
+    width: 200px;
+    background-color:white;
+}
+
+  .average_yearly_bill{
+      background-image: url('AYB.jpg');
+      width:100%;
+      height:250px;
+      font-size:20px;
+      font-weight: 600;
+      background-repeat: no-repeat;
+      border: 1px solid #f6a723;
+      position: relative;
+  }
+  .value{
+      position: absolute;
+      bottom:10px;
+      color:#ce181e;
+      font-size:30px;
+      left: 5px;
+  }
+  .size{
+    color:#ce181e;
+    font-size:30px;
+  }
+  .inr{
+      font-size: 15px;
+  }
+  .recomand{
+    color:#ce181e;
+    font-size:30px;
+  }
+  .net{
+    color:#ce181e;
+    font-size:30px;
+  }
+  .estimate{
+    color:#ce181e;
+    font-size:30px;
+  }
+  .size_require{
+    background-image: url('SizeRequired.jpg');
+    width:100%;
+    height:250px;
+    font-size:20px;
+    font-weight: 600;
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+    border: 1px solid #f6a723;
+    position: relative;
+}
+  .kw_system{
+    background-image: url('kwSystemrecommended.jpg');
+    width:100%;
+    height:250px;
+    font-size:20px;
+    font-weight: 600;
+    background-repeat: no-repeat;
+    border: 1px solid #f6a723;
+    position: relative;
+  }
+  .Kw{
+    color: #ce181e;
+  }
+  .estimated_generation{
+    background-image: url('solar-power-generation-annually.jpg');
+    width:100%;
+    height:250px;
+    font-size:20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-repeat: no-repeat;
+    border: 1px solid #f6a723;
+    position: relative;
+  }
+  .net_system_cost{
+    background-image: url('NetSystemCostafterSubsidy.jpg');
+    width:100%;
+    height:250px;
+    font-size:20px;
+    font-weight: 600;
+    background-repeat: no-repeat;
+    border: 1px solid #f6a723;
+    position: relative;
+  }
+  .Contribution_to_the_environment{
+    background-image: url('your-contribution02.jpg');
+    width:100%;
+    height:250px;
+    text-transform: uppercase;
+    font-size:20px;
+    font-weight: 600;
+    background-repeat: no-repeat;
+    border: 1px solid #f6a723;
+    position: relative;
+  }
+  #Result{
+    display: none;
+  }
